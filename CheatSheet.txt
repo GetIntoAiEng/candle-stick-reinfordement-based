@@ -23,6 +23,11 @@
     git commit -m "why would I commit"
     git push    
 
+-- jump back to branch --------------------------------------------------------
+
+    git checkout -- <this_file>     # for one file  
+    git restore .                   # for them all
+
 ++ B R A N C H E S ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 -- Which Branches we got and were are   we ------------------------------------
